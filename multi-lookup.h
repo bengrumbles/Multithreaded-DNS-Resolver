@@ -1,0 +1,13 @@
+#ifndef MULTI_LOOKUP_H
+#define MULTI_LOOKUP_H
+
+
+#define MAX_INPUT_FILES 100
+#define MAX_REQUESTER_THREADS 10
+#define MAX_RESOLVER_THREADS 10
+#define MAX_IP_LENGTH INET6_ADDRSTRLEN
+
+#include <semaphore.h>
+
+
+#endif
